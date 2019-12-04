@@ -5,8 +5,16 @@ layout: default
     
 {% for post in site.posts %}
     {% if post.tags contains "PUREDRIP" or "Wave" or "Bosse" or "Brace" %}
-    <img src="{{site.baseurl}}/assets/img/{{post.img}}">
-    <h1>{{post.title}}</h2>
+<!--     <img src="{{site.baseurl}}/assets/img/{{post.img}}">
+    <h1>{{post.title}}</h2> -->
+    
+    <div class="grid-container">
+                            
+                          <img src="{{site.baseurl/assets/img/{{post.img}}">
+                          <div class="overlay">
+                        <div class="text">PUREDRIP Juice</div>
+                      </div>
+                        </div>
 {% endif %}
   
     
